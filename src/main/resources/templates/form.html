@@ -6,14 +6,16 @@
 </head>
 <body>
 	<form action="post.html" method="post" th:action="@{/post/write}">
-		<div>
+		<h2>글쓰기</h2>
+		<hr />
+		<fieldset>
 			<label>bookTitle</label>
 			<input type="text" name="bookTitle" />
-		</div>
-		<div>
+		</fieldset>
+		<fieldset>
 			<label>content</label>
 			<textarea name="content"></textarea>
-		</div>
+		</fieldset>
 		<input type="submit" value="저장" />
 	</form>
 </body>
